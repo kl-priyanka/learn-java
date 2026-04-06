@@ -21,7 +21,8 @@ public class Conversion {
         //b1 = a1; //still doesn't work because compiler won't allow int to byte conversion
 
         a1 = b1; //allows byte to int conversion
-
+        //The above is implicit conversion
+        
         System.out.println("a1 = "+a1);
         System.out.println("b1 = "+b1);
 
